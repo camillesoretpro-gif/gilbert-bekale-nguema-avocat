@@ -29,14 +29,13 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { title: "Maître Bekale Nguema · Avocat à Alès" },
+      {
+        name: "description",
+        content:
+          "Cabinet d'avocat généraliste à Alès — Maître Gilbert Bekale Nguema. Écoute, disponibilité, compétence. 06 18 66 60 08.",
+      },
+      { name: "author", content: "Cabinet Bekale Nguema" },
     ],
     links: [
       {
